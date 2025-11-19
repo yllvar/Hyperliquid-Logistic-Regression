@@ -2,26 +2,6 @@
 
 A modular, data-driven quantitative trading system using Logistic Regression on Hyperliquid L2 order book data.
 
-## Project Structure
-
-```
-.
-├── data/               # Data storage
-│   ├── raw/            # Raw JSON/LZ4 data
-│   │   ├── api/        # REST API downloads
-│   │   └── synthetic/  # Synthetic data for testing
-│   ├── processed/      # Cleaned Parquet files
-│   └── features/       # Feature datasets
-├── models/             # Trained models and scalers
-├── src/
-│   ├── api_downloader/ # NEW: REST API data downloader
-│   ├── data/           # Legacy S3 downloader (deprecated)
-│   ├── features/       # Feature engineering
-│   ├── models/         # Model training & validation
-│   ├── backtest/       # Backtesting engine
-│   └── live/           # Live WebSocket inference
-└── tests/              # Verification scripts
-```
 
 ## Quick Start
 
