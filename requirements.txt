@@ -1,0 +1,7 @@
+boto3
+lz4
+polars
+pyarrow
+python-dotenv
+tqdm
+requests
